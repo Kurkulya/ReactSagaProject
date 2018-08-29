@@ -1,6 +1,6 @@
 import { combineReducers } from 'redux';
-import {fieldReducer} from "./fieldReducer";
+import { postsReducer } from "./postsReducer";
 
 export default combineReducers({
-    field: fieldReducer
+    posts: postsReducer
 });

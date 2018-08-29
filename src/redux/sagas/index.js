@@ -1,8 +1,8 @@
 import { all } from 'redux-saga/effects';
-import fieldSaga from './fieldSaga';
+import postsSaga from './postsSaga';
 
 export default function * rootSaga() {
     yield all([
-        fieldSaga()
+        postsSaga()
     ])
 }

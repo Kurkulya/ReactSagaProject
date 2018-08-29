@@ -1,7 +1,7 @@
 import { Route } from 'react-router';
 import React from 'react';
 import App from '../components/App';
-import Register from '../components/Register';
+import Posts from '../components/Posts';
 import SignIn from '../components/SignIn';
 
 export default () => {
@@ -9,7 +9,7 @@ export default () => {
         <React.Fragment>
             <Route exact path='/' component={App}/>
             <Route path='/sign_in' component={SignIn}/>
-            <Route path='/register' component={Register}/>
+            <Route path='/posts' component={Posts}/>
         </React.Fragment>
     );
 }
